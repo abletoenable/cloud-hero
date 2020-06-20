@@ -4,8 +4,7 @@ url = "https://api.telegram.org/bot{token}/{method}".format(
     token="TOKEN",
     method = "setWebhook"
     #method = "deleteWebhook"
-    #method = "getWebhookinfo"
-    
+    #method = "getWebhookinfo"  
 )
 
 data = {
