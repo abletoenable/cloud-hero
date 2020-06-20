@@ -37,3 +37,4 @@ def delete(bucket_name, object_name):
 # Загрузить объект из корзины
 def download(bucket_name, object_name):
     os.download_file(bucket_name, object_name, object_name)
+
