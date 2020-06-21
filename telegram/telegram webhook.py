@@ -1,7 +1,7 @@
 import requests
 
 url = "https://api.telegram.org/bot{token}/{method}".format(
-    token="1280990087:AAHYwHfHmSQfvPz4T1bLrunes97gHpRaUwg",
+    token="TELEGRAM_BOT_TOKEN",
     method = "setWebhook"
     #method="getWebhookinfo"
     #method = "deleteWebhook")
