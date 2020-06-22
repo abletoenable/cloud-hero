@@ -7,7 +7,7 @@ url = "https://api.telegram.org/bot{token}/{method}".format(
     #method = "deleteWebhook"
 )
 
-data = {"url": "https://functions.yandexcloud.net/d4ea2u645d8seikvq3u7"}
+data = {"url": "WEBHOOK_URL"}
 
 r = requests.post(url, data=data)
 print(r.json())
