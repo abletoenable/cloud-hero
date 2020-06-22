@@ -43,7 +43,7 @@ def start_helper(message):
 @bot.message_handler(regexp="Хочу котиков")
 def send_kitty(message):
     file = str(random.randint(1,10))+'.jpg'
-    photo = 'https://storage.yandexcloud.net/sleepykitty/' + file
+    photo = 'BUCKET_URL' + file
     bot.send_photo(message.chat.id, photo, reply_markup=keyboard_continue)
 
 
@@ -51,7 +51,7 @@ def send_kitty(message):
 @bot.message_handler(regexp="Хочу ещё котиков")
 def send_kitty(message):
     file = str(random.randint(1,10))+'.jpg'
-    photo = 'https://storage.yandexcloud.net/sleepykitty/' + file
+    photo = 'BUCKET_URL' + file
     bot.send_photo(message.chat.id, photo, reply_markup=keyboard_continue)
 
 
