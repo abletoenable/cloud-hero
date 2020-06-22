@@ -4,7 +4,8 @@ url = "https://api.telegram.org/bot{token}/{method}".format(
     token="TELEGRAM_BOT_TOKEN",
     method = "setWebhook"
     #method="getWebhookinfo"
-    #method = "deleteWebhook")
+    #method = "deleteWebhook"
+)
 
 data = {"url": "https://functions.yandexcloud.net/d4ea2u645d8seikvq3u7"}
 
